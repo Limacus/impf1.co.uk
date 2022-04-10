@@ -31,7 +31,7 @@
         <!-- Page Description -->
         <meta name="description" content="Welcome to IMPF1 - The home of professional Ro-Racing. Looking for a friendly and fun league with responsive cars and exceptional track design? You've come to the right place.">
 
-        <!-- Theme color -->
+        <!-- Theme colour -->
         <meta name="theme-color" content="#FFFFFF">
 
         <!-- Page canonical URL -->
