@@ -977,7 +977,7 @@ textarea {
    margin: 0px;
  }
 
- .main-navigation, .site-header {
+.site-header .wrapper {
    background: var(--blue); 
    display: flex;
    justify-content: space-between;
