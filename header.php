@@ -72,7 +72,7 @@
 
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<img src="<?php echo get_template_directory_uri(); ?>/media/IMPLOGONEW.png" alt="IMP logo" />
+			<img src="<?php echo get_template_directory_uri(); ?>/media/IMPLOGONEW.png" href="index.php" alt="IMP logo" />
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
