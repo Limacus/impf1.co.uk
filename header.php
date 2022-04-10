@@ -69,14 +69,15 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'impf1' ); ?></a>
-
+<div class="wrapper">
 	<header id="masthead" class="site-header">
 		<div class="site-branding">
-			<a href="<?php site_url(); ?>"></a><img src="<?php echo get_template_directory_uri(); ?>/media/IMPLOGONEW.png" href="index.php" alt="IMP logo" />
+			<a href="<?php site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/media/IMPLOGONEW.png" href="index.php" alt="IMP logo" /></a>
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'impf1' ); ?></button>
+</div><!-- .wrapper -->
 			<?php
 			wp_nav_menu(
 				array(
