@@ -987,6 +987,9 @@ textarea {
    display: flex;
  }
  
+ .main-navigation {
+	 width: auto;
+ }
  .nav-menu {
 	display: flex;
 	margin: 0;
