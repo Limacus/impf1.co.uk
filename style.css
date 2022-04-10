@@ -988,7 +988,7 @@ textarea {
    display: flex;
  }
  
- .main-menu {
+ .nav-menu {
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -998,12 +998,12 @@ textarea {
 	font-weight: bold;
 }
 
-.main-menu a {
+.nav-menu a {
 	color: white;
 	text-decoration: none;
 }
 
-.main-menu li:hover > .sub-menu-1 {
+.nav-menu li:hover > .sub-menu-1 {
 	display: block;
 }
 
@@ -1048,7 +1048,7 @@ textarea {
 	--blue: #00008B;
   }
 
-.header li a {
+.site-branding li a {
 	font-size: 18px;
 	padding: 10px 16px;
 	min-width: 120px;
@@ -1072,15 +1072,6 @@ textarea {
 	font-display: swap;
   }
 
-  .test-1 {
-	  font-family: f1;
-  }
-
-  .test-2 {
-	  font-family: f1;
-	  font-weight: bold;
-  }
-
   * {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -1092,7 +1083,7 @@ textarea {
 	margin: 0 auto;
   }
 
-  .header .wrapper {
+  .site-branding .wrapper {
 	display: flex;
 	justify-content: space-between;
   }
