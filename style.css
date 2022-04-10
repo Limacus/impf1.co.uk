@@ -978,7 +978,6 @@ textarea {
  }
 
 .site-header .wrapper {
-   background: var(--blue); 
    display: flex;
    justify-content: space-between;
    width: 100%;
@@ -1086,4 +1085,8 @@ textarea {
   .site-branding .wrapper {
 	display: flex;
 	justify-content: space-between;
+  }
+
+  .site-header {
+	background: var(--blue); 
   }
