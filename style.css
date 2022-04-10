@@ -959,3 +959,140 @@ textarea {
 	margin-bottom: 1.5em;
 }
 
+.para {
+    font-size: 10px;
+  }
+
+.skip-link {
+    transform: translateY(-1000%);
+    position: absolute;
+    left: 50%;
+ }
+ 
+.skip-link:focus-within {
+    transform: translateY(0);
+ }
+
+ body {
+   margin: 0px;
+ }
+
+ .header {
+   background: var(--blue); 
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+ }
+
+ .site-navigation > ul{
+   display: flex;
+ }
+ 
+ .main-menu {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+	font-family: f1;
+	font-weight: bold;
+}
+
+.main-menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.main-menu li:hover > .sub-menu-1 {
+	display: block;
+}
+
+.sub-menu-1 {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: none;
+	position: absolute;
+	font-family: f1;
+	font-weight: bold;
+	border-radius: 0px 0px 10px 10px;
+	border-color: black;
+	border-width: 3px;
+	border-style: solid;
+	top: 67px;
+}
+
+.sub-menu-1 a {
+	color: #fff;
+  transition: .25s ease padding-left;
+  background: #333;
+  border-bottom: 1px solid rgba(255,255,255,0.25);
+}
+
+.sub-menu-1 a:hover {
+    padding-left: 20px;
+}
+
+.site-logo img {
+  max-width: 200px;
+}
+
+:root .dark {
+  --color-a: #111;
+}
+:root .light {
+  --color-a: #ccc;
+}
+
+:root {
+	--blue: #00008B;
+  }
+
+.header li a {
+	font-size: 18px;
+	padding: 10px 16px;
+	min-width: 120px;
+	cursor: pointer;
+	display: block;
+	padding: 20px 16px;
+	line-height: 27px;
+}
+
+@font-face {
+	font-family: f1;
+	src: url('fonts/Formula1-Regular.otf');
+	font-weight: normal;
+	font-display: swap;
+  }
+  
+  @font-face {
+	font-family: f1;
+	src: url('fonts/Formula1-Bold.otf');
+	font-weight: bold;
+	font-display: swap;
+  }
+
+  .test-1 {
+	  font-family: f1;
+  }
+
+  .test-2 {
+	  font-family: f1;
+	  font-weight: bold;
+  }
+
+  * {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+  }
+
+  .wrapper {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+  }
+
+  .header .wrapper {
+	display: flex;
+	justify-content: space-between;
+  }
