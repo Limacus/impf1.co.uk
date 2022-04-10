@@ -977,14 +977,14 @@ textarea {
    margin: 0px;
  }
 
- .site-header {
+ .main-navigation {
    background: var(--blue); 
    display: flex;
    justify-content: space-between;
    width: 100%;
  }
 
- .site-navigation > ul{
+ .main-navigation > ul{
    display: flex;
  }
  
@@ -1003,11 +1003,11 @@ textarea {
 	text-decoration: none;
 }
 
-.nav-menu li:hover > .sub-menu-1 {
+.nav-menu li:hover > .children {
 	display: block;
 }
 
-.sub-menu-1 {
+.children {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -1022,14 +1022,14 @@ textarea {
 	top: 67px;
 }
 
-.sub-menu-1 a {
+.children a {
 	color: #fff;
   transition: .25s ease padding-left;
   background: #333;
   border-bottom: 1px solid rgba(255,255,255,0.25);
 }
 
-.sub-menu-1 a:hover {
+.children a:hover {
     padding-left: 20px;
 }
 
