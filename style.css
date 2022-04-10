@@ -977,7 +977,7 @@ textarea {
    margin: 0px;
  }
 
- .header {
+ .site-branding {
    background: var(--blue); 
    display: flex;
    justify-content: space-between;
