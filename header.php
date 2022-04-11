@@ -35,17 +35,17 @@
         <meta name="theme-color" content="#FFFFFF">
 
         <!-- Icons -->
-        <link rel="icon" href="https://impf1.co.uk/media/IMP_lines.png/" type="image/x-icon"> 
-        <link rel="shortcut icon" href="https://impf1.co.uk/media/IMP_lines.png/" type="image/x-icon">
-        <link rel="apple-touch-icon" sizes="192x192" href="https://impf1.co.uk/media/IMP_lines.png/">
-        <link rel="icon" type="image/png" sizes="32x32" href="https://impf1.co.uk/IMP_lines.png/">
-        <link rel="icon" type="image/png" sizes="16x16" href="https://impf1.co.uk/media/IMP_lines.png/">
+        <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png/" type="image/x-icon"> 
+        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png/" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="192x192" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png/">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/IMP_lines.png/">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png/">
 
         <!-- Facebook Open Graph -->
         <meta property="og:title" content="IMPF1 - Professional Ro-Racing">
         <meta property="og:type" content="IMPF1">
-        <meta property="og:url" content="https://impf1.co.uk/">
-        <meta property="og:image" content="https://impf1.co.uk/media/IMPLOGONEW.png">
+        <meta property="og:url" content="<?php the_permalink(); ?>/">
+        <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/media/IMPLOGONEW.png">
         <meta property="og:image:alt" content="IMPF1 logo">
         <meta property="og:description" content="Welcome to IMPF1 - The home of professional Ro-Racing. Looking for a friendly and fun league with responsive cars and exceptional track design? You've come to the right place.">
         <meta property="og:site_name" content="IMPF1">
@@ -55,10 +55,10 @@
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@website-account">
         <meta name="twitter:creator" content="@personal-account">
-        <meta name="twitter:url" content="https://impf1.co.uk/">
+        <meta name="twitter:url" content="<?php the_permalink(); ?>">
         <meta name="twitter:title" content="IMPF1 - Professional Ro-Racing">
         <meta name="twitter:description" content="Welcome to IMPF1 - The home of professional Ro-Racing. Looking for a friendly and fun league with responsive cars and exceptional track design? You've come to the right place.">
-        <meta name="twitter:image" content="https://impf1.co.uk/media/IMPLOGONEW.png">
+        <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/media/IMPLOGONEW.png">
         <meta name="twitter:image:alt" content="IMPF1 logo">
 </head>
 
