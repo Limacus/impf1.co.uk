@@ -1004,11 +1004,11 @@ textarea {
 	text-decoration: none;
 }
 
-.nav-menu li:hover > .children {
+.nav-menu li:hover > .sub-menu {
 	display: block;
 }
 
-.children {
+.sub-menu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -1024,14 +1024,14 @@ textarea {
 	justify-content: space-between;
 }
 
-.children a {
+.sub-menu a {
 	color: #fff;
   transition: .25s ease padding-left;
   background: #333;
   border-bottom: 1px solid rgba(255,255,255,0.25);
 }
 
-.children a:hover {
+.sub-menu a:hover {
     padding-left: 20px;
 }
 
