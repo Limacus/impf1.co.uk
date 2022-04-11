@@ -1096,3 +1096,6 @@ textarea {
 	padding: 10px;
   }
 
+.wp-block-table {
+	background: #333;
+}
