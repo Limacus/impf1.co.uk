@@ -1105,6 +1105,6 @@ textarea {
 .wp-block-table tr {
 	border-width: 1px;
 	border-style: solid;
-	border-top: #fff;
-	border-bottom: #fff;
+	border-color: transparent;
+	border-bottom-color: silver;
 }
