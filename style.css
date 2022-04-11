@@ -1100,9 +1100,11 @@ textarea {
 	background: #333;
 	font-family: f1;
 	color: #fff;
+}
+
+.wp-block-table tr {
 	border-radius: 3px 0px 3px 0px;
 	border-color: black;
 	border-width: 3px;
 	border-style: solid;
-	
 }
