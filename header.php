@@ -18,8 +18,8 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
 	<?php wp_head(); ?>
-	<link rel="stylesheet" href="style.css">  
-      <script src="scripts.js"></script>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">  
+      <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
         <!-- Page title -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -33,9 +33,6 @@
 
         <!-- Theme colour -->
         <meta name="theme-color" content="#FFFFFF">
-
-        <!-- Page canonical URL -->
-        <link rel="canonical" href="https://impf1.co.uk/">
 
         <!-- Icons -->
         <link rel="icon" href="https://impf1.co.uk/media/IMP_lines.png/" type="image/x-icon"> 
