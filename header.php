@@ -38,7 +38,7 @@
         <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png" type="image/x-icon"> 
         <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png" type="image/x-icon">
         <link rel="apple-touch-icon" sizes="192x192" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/IMP_lines.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png">
         <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png">
 
         <!-- Facebook Open Graph -->
