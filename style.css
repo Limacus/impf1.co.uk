@@ -1084,10 +1084,10 @@ textarea {
 	max-width: 1200px;
 	width: 100%;
 	margin: 0 auto;
+	display: flex;
   }
 
-  .site-branding .wrapper {
-	display: flex;
+  .site-branding {
 	justify-content: space-between;
   }
 
