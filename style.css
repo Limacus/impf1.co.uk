@@ -1118,8 +1118,10 @@ textarea {
 	background-color: #fff;
 	height: 25px;
 	width: 25px;
+	text-align: center;
 }
 
 .position {
 	color: black;
+	display: flex;
 }
