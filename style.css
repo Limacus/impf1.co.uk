@@ -1093,3 +1093,7 @@ textarea {
   .site-header {
 	background: var(--blue); 
   }
+
+  .menu li {
+	  justify-content: space-evenly;
+  }
