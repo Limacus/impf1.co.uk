@@ -1087,7 +1087,7 @@ textarea {
 	display: flex;
   }
 
-  .main-navigation {
+  .wrapper {
 	justify-content: space-between;
   }
 
