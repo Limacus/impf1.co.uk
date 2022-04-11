@@ -1092,7 +1092,7 @@ textarea {
 	background: var(--blue); 
   }
 
-  .main-navigation {
-	width: 100%;
+  .nav-menu li{
+	justify-content: space-between;
   }
 
