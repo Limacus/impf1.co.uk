@@ -1094,6 +1094,6 @@ textarea {
 	background: var(--blue); 
   }
 
-  .menu li {
+  .main-navigation {
 	  justify-content: space-evenly;
   }
