@@ -1103,8 +1103,8 @@ textarea {
 }
 
 .wp-block-table tr {
-	border-radius: 3px 0px 3px 0px;
-	border-color: black;
-	border-width: 3px;
+	border-width: 1px;
 	border-style: solid;
+	border-top: #fff;
+	border-bottom: #fff;
 }
