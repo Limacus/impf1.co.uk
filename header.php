@@ -19,7 +19,7 @@
 
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">  
-      <script src="<?php echo get_template_directory_uri(); ?>/script.js"></script>
+      <script src="<?php echo get_template_directory_uri(); ?>/scripts.js"></script>
         <!-- Page title -->
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -35,16 +35,16 @@
         <meta name="theme-color" content="#FFFFFF">
 
         <!-- Icons -->
-        <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png/" type="image/x-icon"> 
-        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png/" type="image/x-icon">
-        <link rel="apple-touch-icon" sizes="192x192" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png/">
-        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/IMP_lines.png/">
-        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png/">
+        <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png" type="image/x-icon"> 
+        <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png" type="image/x-icon">
+        <link rel="apple-touch-icon" sizes="192x192" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/IMP_lines.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/media/IMP_lines.png">
 
         <!-- Facebook Open Graph -->
         <meta property="og:title" content="IMPF1 - Professional Ro-Racing">
         <meta property="og:type" content="IMPF1">
-        <meta property="og:url" content="<?php the_permalink(); ?>/">
+        <meta property="og:url" content="<?php the_permalink(); ?>">
         <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/media/IMPLOGONEW.png">
         <meta property="og:image:alt" content="IMPF1 logo">
         <meta property="og:description" content="Welcome to IMPF1 - The home of professional Ro-Racing. Looking for a friendly and fun league with responsive cars and exceptional track design? You've come to the right place.">
