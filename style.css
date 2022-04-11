@@ -1119,10 +1119,10 @@ textarea {
 	height: 25px;
 	width: 25px;
 	text-align: center;
-	justify-content: center;
 }
 
 .position {
 	color: black;
 	display: inline-flex;
+	font-weight: bold;
 }
