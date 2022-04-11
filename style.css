@@ -987,7 +987,7 @@ textarea {
  }
  
  .main-navigation {
-	 width: auto;
+	 width: 100%;
  }
  .nav-menu {
 	display: flex;
