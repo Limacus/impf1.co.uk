@@ -979,7 +979,6 @@ textarea {
 
 .site-header .wrapper {
    display: flex;
-   justify-content: space-between;
    width: 100%;
  }
 
@@ -1082,9 +1081,7 @@ textarea {
 
   .wrapper {
 	max-width: 1200px;
-	width: 100%;
 	margin: 0 auto;
-	display: flex;
   }
 
   .wrapper {
@@ -1094,3 +1091,8 @@ textarea {
   .site-header {
 	background: var(--blue); 
   }
+
+  .main-navigation {
+	width: 100%;
+  }
+
