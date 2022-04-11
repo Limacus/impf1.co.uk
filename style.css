@@ -1108,3 +1108,10 @@ textarea {
 	border-color: transparent;
 	border-bottom-color: silver;
 }
+
+.position {
+	border-radius: 10px;
+	border-color: #fff;
+	border-style: solid;
+	border-width: 2px;
+}
