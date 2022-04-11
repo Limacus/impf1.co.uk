@@ -1114,4 +1114,8 @@ textarea {
 	border-color: #fff;
 	border-style: solid;
 	border-width: 2px;
+	background: #fff;
+	background-color: #fff;
+	height: 25px;
+	width: 25px;
 }
