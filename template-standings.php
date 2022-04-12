@@ -18,14 +18,12 @@
 <?php if (get_field('driver-' . $i . '__name')) : ?>
 <?php the_field('driver-' . $i . '__name'); ?>
 <?php endif; ?>
-<?php the_field('driver-1__name'); ?>
 <?php for ($i=1; $i<=20; $i++) : ?>
     <div 
         class="scoreboard-data-item hidden" 
         data-name="<?php if (get_field('driver-' . $i . '__name')) : ?><?php the_field('driver-' . $i . '__name'); ?><?php endif; ?>" 
         data-score="<?php if (get_field('driver-' . $i . '__score')) : ?><?php the_field('driver-' . $i . '__score'); ?><?php endif; ?>"
     >
-    <?php echo $i ?>
     </div>
 <?php endfor; ?>
 
