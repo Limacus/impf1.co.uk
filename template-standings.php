@@ -25,6 +25,7 @@
         data-name="<?php if (get_field('driver__' . $i . '-name')) : ?><?php the_field('driver__' . $i . '-name'); ?><?php endif; ?>" 
         data-score="<?php if (get_field('driver__' . $i . '-score')) : ?><?php the_field('driver__' . $i . '-score'); ?><?php endif; ?>"
     >
+    <?php echo $i ?>
     </div>
 <?php endfor; ?>
 
