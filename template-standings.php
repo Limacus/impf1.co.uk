@@ -15,18 +15,18 @@
       endwhile;
     ?>
 
-<?php if get_field('racer__' . $i . '-name') : ?>
+<?php if (get_field('racer__' . $i . '-name')) : ?>
 <?php the_field('racer__' . $i . '-name'); ?>
 <?php endif; ?>
 <?php the_field('driver-1__name'); ?>
 <?php for ($i=1; $i<=20; $i++) : ?>
     <div 
         class="scoreboard-data-item hidden" 
-        data-name="<?php if get_field('racer__' . $i . '-name') : ?><?php the_field('racer__' . $i . '-name'); ?><?php endif; ?>" 
+        data-name="<?php if (get_field('racer__' . $i . '-name')) : ?><?php the_field('racer__' . $i . '-name'); ?><?php endif; ?>" 
         data-score="<?php if (get_field('racer__' . $i . '-score')) : ?><?php the_field('racer__' . $i . '-score'); ?><?php endif; ?>"
     >
     </div>
-<?php endif; ?>
+<?php endfor; ?>
 
 <figure class="wp-block-table">
   <table>
