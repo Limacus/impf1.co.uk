@@ -1100,6 +1100,7 @@ textarea {
 	background: #333;
 	font-family: f1;
 	color: #fff;
+	border-collapse: collapse;
 }
 
 .wp-block-table tr {
@@ -1125,4 +1126,5 @@ textarea {
 	color: black;
 	display: inline-flex;
 	font-weight: bold;
+	padding: 3px;
 }
