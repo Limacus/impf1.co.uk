@@ -1127,4 +1127,5 @@ textarea {
 	display: inline-flex;
 	font-weight: bold;
 	padding: 3px;
+	border: 1px solid #fff;
 }
