@@ -15,9 +15,6 @@
       endwhile;
     ?>
 
-<?php if (get_field('driver-' . $i . '__name')) : ?>
-<?php the_field('driver-' . $i . '__name'); ?>
-<?php endif; ?>
 <?php for ($i=1; $i<=20; $i++) : ?>
     <div 
         class="scoreboard-data-item hidden" 
