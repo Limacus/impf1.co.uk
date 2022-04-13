@@ -97,5 +97,4 @@
    let name = document.createElement('td')
  
    // Add the appropriate class name
-   name.classList.add('driver-name')
- ... (45 lines left)
+   name.classList.add('driver-name')}
