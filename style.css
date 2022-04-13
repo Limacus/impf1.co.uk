@@ -1096,14 +1096,14 @@ textarea {
 	padding: 10px;
   }
 
-.wp-block-table {
+.table {
 	background: #333;
 	font-family: f1;
 	color: #fff;
 	border-collapse: collapse;
 }
 
-.wp-block-table tr {
+tr {
 	border-width: 1px;
 	border-style: solid;
 	border-color: transparent;
