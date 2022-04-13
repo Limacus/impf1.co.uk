@@ -97,4 +97,49 @@
    let name = document.createElement('td')
  
    // Add the appropriate class name
-   name.classList.add('driver-name')}
+   name.classList.add('driver-name')
+ 
+   // Fill with the appropriate name
+   name.innerText = item.dataset.name
+ 
+   // Add this <td class="driver-name"></td> to the <tr> we just made
+   tr.appendChild(name);
+ 
+   /**
+    * Step 13: Create a <td>
+    */
+   let score = document.createElement('td')
+ 
+   // Add the appropriate class name
+   score.classList.add('points')
+ 
+    // Fill with the appropriate score
+   score.innerText = item.dataset.score
+ 
+    // Add this <td class="points"></td> to the <tr> we just made
+   tr.appendChild(score);
+ 
+   /**
+    * Step 14: Add this <tr>...</tr> to our scoreboard <table>
+    */
+   scoreboard.appendChild(tr);
+ })
+ 
+ /**
+  * Step 15: Create empty div to use as a wrapper for the whole table
+  */
+ let wrapper = document.createElement('div')
+ 
+ // Add this class because that is just how Limacus decided to style this <table>
+ wrapper.classList.add('wp-block-table')
+ 
+ /**
+  * Step 16: Add our entire scoreboard <table>...</table> into our wrapper <div class="wp-block-table"></div>
+  */
+ wrapper.appendChild(scoreboard)
+ 
+ /**
+  * Step 17: Add our entire wrapper (which includes our <table>) to our document.body
+  */
+ document.body.appendChild(wrapper)
+ 
