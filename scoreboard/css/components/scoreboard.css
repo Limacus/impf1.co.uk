@@ -1,0 +1,207 @@
+/**
+ * Component: Scoreboard
+ * 
+ * Styles: /css/components/scoreboard.css
+ * Scripts: /js/components/scoreboard.js
+ * Template: /template-parts/standings/scoreboard.php
+ */
+
+/**
+ * Table styles <table></table>
+ */
+table.scoreboard {
+	border-collapse: collapse;
+	margin: 32px 0;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+/**
+ * Table rows <tr></tr>
+ */
+table.scoreboard tr {
+	background: linear-gradient(180deg, #fff, #eee);
+	padding: 16px;
+	color: #111;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+/**
+ * Table Header row <tr></tr>
+ */
+table.scoreboard tr:first-of-type {
+	border-color: #111;
+}
+
+/**
+ * Table Headers <th></th>
+ */
+table.scoreboard tr th {
+	background: #111;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: left;
+	padding: 16px;
+	text-transform: uppercase;
+}
+
+/**
+ * <td class="position-box"></td>
+ */
+.position-box {
+	background: #fff;
+	display: inline-block;
+	padding: 4px 8px;
+	width: 32px;
+	text-align: center;
+	border-radius: 3px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+}
+
+/**
+ * First place row <tr></tr>
+ */
+table.scoreboard tr:nth-of-type(2) {
+	background: linear-gradient(60deg, #fff, #d1c534), linear-gradient(180deg, #fff, #eee);
+}
+
+table.scoreboard tr:nth-of-type(2) td.position {
+	color: #fff;
+	font-weight: bold;
+}
+
+table.scoreboard tr:nth-of-type(4) td.position .position-box {
+	background: #d1c534;
+}
+
+/**
+ * Second place row <tr></tr>
+ */
+table.scoreboard tr:nth-of-type(3) {
+	background: linear-gradient(60deg, #fff, #b7b7bb), linear-gradient(180deg, #fff, #eee);
+}
+
+table.scoreboard tr:nth-of-type(3) td.position {
+	color: #fff;
+	font-weight: bold;
+}
+
+table.scoreboard tr:nth-of-type(4) td.position .position-box {
+	background: #b7b7bb;
+}
+
+/**
+ * Third place row <tr></tr>
+ */
+table.scoreboard tr:nth-of-type(4) {
+	background: linear-gradient(60deg, #fff, #a02508), linear-gradient(180deg, #fff, #eee);
+}
+
+table.scoreboard tr:nth-of-type(4) td.position {
+	color: #fff;
+	font-weight: bold;
+}
+
+table.scoreboard tr:nth-of-type(4) td.position .position-box {
+	background: #a02508;
+}
+
+/**
+ * Animations for <tr>'s
+ */
+table.scoreboard tr {
+	opaicty: 0;
+	animation: .25s recordFadeIn linear forwards;
+}
+
+@keyframes recordFadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+table.scoreboard tr:nth-of-type(1) {
+	animation-delay: .05s;
+}
+
+table.scoreboard tr:nth-of-type(2) {
+	animation-delay: .10s;
+}
+
+table.scoreboard tr:nth-of-type(3) {
+	animation-delay: .15s;
+}
+
+table.scoreboard tr:nth-of-type(4) {
+	animation-delay: .20s;
+}
+
+table.scoreboard tr:nth-of-type(5) {
+	animation-delay: .25s;
+}
+
+table.scoreboard tr:nth-of-type(6) {
+	animation-delay: .30s;
+}
+
+table.scoreboard tr:nth-of-type(7) {
+	animation-delay: .35s;
+}
+
+table.scoreboard tr:nth-of-type(8) {
+	animation-delay: .40s;
+}
+
+table.scoreboard tr:nth-of-type(9) {
+	animation-delay: .45s;
+}
+
+table.scoreboard tr:nth-of-type(10) {
+	animation-delay: .50s;
+}
+
+table.scoreboard tr:nth-of-type(11) {
+	animation-delay: .55s;
+}
+
+table.scoreboard tr:nth-of-type(12) {
+	animation-delay: .60s;
+}
+
+table.scoreboard tr:nth-of-type(13) {
+	animation-delay: .65s;
+}
+
+table.scoreboard tr:nth-of-type(14) {
+	animation-delay: .70s;
+}
+
+table.scoreboard tr:nth-of-type(15) {
+	animation-delay: .75s;
+}
+
+table.scoreboard tr:nth-of-type(16) {
+	animation-delay: .80s;
+}
+
+table.scoreboard tr:nth-of-type(17) {
+	animation-delay: .85s;
+}
+
+table.scoreboard tr:nth-of-type(18) {
+	animation-delay: .90s;
+}
+
+table.scoreboard tr:nth-of-type(19) {
+	animation-delay: .95s;
+}
+
+table.scoreboard tr:nth-of-type(20) {
+	animation-delay: 1.0s;
+}
