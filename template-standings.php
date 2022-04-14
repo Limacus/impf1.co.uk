@@ -1,7 +1,7 @@
 <?php
   /**
-  * Template Name: Standings
-  */
+   * Template Name: Standings
+   */
 ?>
 <?php get_header(); ?>
 
@@ -12,17 +12,10 @@
                 
         the_post();
 
+        get_template_part('template-parts/standings/scoreboard');
+
       endwhile;
     ?>
-
-<?php for ($i=1; $i<=20; $i++) : ?>
-    <div 
-        class="scoreboard-data-item hidden" 
-        data-name="<?php if (get_field('driver-' . $i . '__name')) : ?><?php the_field('driver-' . $i . '__name'); ?><?php endif; ?>" 
-        data-score="<?php if (get_field('driver-' . $i . '__score')) : ?><?php the_field('driver-' . $i . '__score'); ?><?php endif; ?>"
-    >
-    </div>
-<?php endfor; ?>
 
   </main><!-- .site-main -->
 
